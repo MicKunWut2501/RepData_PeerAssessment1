@@ -77,7 +77,6 @@ if(!require('imputeR'))
 
 ```{r}
 activityDataImputed <- activityData
-activityDataImputed$steps <- impute(activityData$steps, fun=mean)
 ```
 
 #### 4. Make a historgram of the total number of steps taken each day after missing values are imputed
